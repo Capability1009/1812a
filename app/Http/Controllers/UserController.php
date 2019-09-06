@@ -24,12 +24,12 @@ class UserController extends Controller
 
     public function conRedis()
     {
-        //$key = '1812a_123';
-        $key = '1812a_123';
-        $value = '456';
-        Redis::set($key,$value);
-        //取
-        $a = Redis::get($key);
-        print_r($a);
+//        $key = '1812a_123';
+//        $key = '1812a_123';
+//        $value = '456';
+//        Redis::set($key,$value);
+//        取
+//        $a = Redis::get($key);
+//        print_r($a);
     }
 }
