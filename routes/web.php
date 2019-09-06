@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('/test/add','UserController@add');   //测试
 Route::get('/test/redis','UserController@conRedis');   //测试
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
